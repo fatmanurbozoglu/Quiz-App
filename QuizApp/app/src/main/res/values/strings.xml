@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="str_quiz">QUIZ APP</string>
+    <string name="str_true_false">TRUE/FALSE</string>
+    <string name="str_four_options">FOUR OPTIONS</string>
+    <string name="str_manuel_answer">MANUEL ANSWER</string>
+
+    <string name="str_true">True: </string>
+    <string name="str_false">False: </string>
+    <string name="str_success_rate">Success Rate: </string>
+    <string name="str_result">QUIZ APP RESULT</string>
+    <string name="str_main_menu">Main Menu </string>
+
+    <string name="false_answer_message">Unfortunately! False Answer.</string>
+    <string name="true_answer_message">Congratulations! True Answer.</string>
+    <string name="str_true_button">TRUE</string>
+    <string name="str_false_button">FALSE</string>
+    <string name="str_next">Next >>></string>
+
+    <string name="str_answer">Enter Answer.</string>
+</resources>

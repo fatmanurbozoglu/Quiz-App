@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/trueFalseButton"
+        android:layout_width="@dimen/space256"
+        android:layout_height="@dimen/space0"
+        android:layout_marginBottom="@dimen/space16"
+        android:background="@color/black"
+        android:text="@string/str_true_false"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/fourOptionsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:textSize="@dimen/textSize20"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/fourOptionsButton"
+        android:layout_width="@dimen/space256"
+        android:layout_height="@dimen/space0"
+        android:layout_marginBottom="@dimen/space16"
+        android:background="@color/black"
+        android:text="@string/str_four_options"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/manuelAnswerButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trueFalseButton"
+        android:textSize="@dimen/textSize20"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/manuelAnswerButton"
+        android:layout_width="@dimen/space256"
+        android:layout_height="@dimen/space0"
+        android:layout_marginBottom="@dimen/space256"
+        android:background="@color/black"
+        android:text="@string/str_manuel_answer"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourOptionsButton"
+        android:textSize="@dimen/textSize20"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView"
+        android:layout_width="@dimen/space256"
+        android:layout_height="@dimen/space0"
+        android:layout_marginTop="@dimen/space128"
+        android:layout_marginBottom="@dimen/space0"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="@string/str_quiz"
+        android:textSize= "@dimen/textSize32"
+        android:textStyle="bold|italic"
+
+        app:layout_constraintBottom_toTopOf="@+id/trueFalseButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

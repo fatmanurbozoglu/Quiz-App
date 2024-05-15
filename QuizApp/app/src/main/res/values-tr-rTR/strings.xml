@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">QuizApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="str_quiz">SINAV UYGULAMASI</string>
+    <string name="str_true_false">DOĞRU/YANLIŞ</string>
+    <string name="str_four_options">DÖRT SEÇENEKLİ</string>
+    <string name="str_manuel_answer">MANUEL CEVAP</string>
+
+    <string name="str_true">Doğru: </string>
+    <string name="str_false">Yanlış: </string>
+    <string name="str_success_rate">Başarı Oranı: </string>
+    <string name="str_result">SINAV UYGULAMA SONUCU</string>
+    <string name="str_main_menu">Ana Menü </string>
+
+    <string name="false_answer_message">Maalesef!Yanlış Cevap.</string>
+    <string name="true_answer_message">Tebrikler!Doğru Cevap.</string>
+    <string name="str_true_button">DOĞRU</string>
+    <string name="str_false_button">YANLIŞ</string>
+    <string name="str_next">Sonraki >>></string>
+
+    <string name="str_answer">Cevabınızı Giriniz.</string>
+
+
+</resources>
